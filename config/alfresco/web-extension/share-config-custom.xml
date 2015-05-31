@@ -1,8 +1,6 @@
 <alfresco-config>
-
    <!-- Apply custom theme -->
 	    <config evaluator="string-compare" condition="WebFramework">
-			      
 		     <web-framework>
 				   <module-deployment>
 					 	<mode>auto</mode>
@@ -14,7 +12,5 @@
 					 <use-checksum-dependencies>true</use-checksum-dependencies>
 					 <generate-css-data-images>true</generate-css-data-images>
 		     </web-framework>
-																										      
 		  </config>
-
 </alfresco-config>
