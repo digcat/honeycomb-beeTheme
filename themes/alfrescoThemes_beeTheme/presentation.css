@@ -110,7 +110,11 @@ h4 .lighter
 
 .alfresco-guest .sticky-wrapper
 {
-   background: none;
+	 background: url(images/alfrescobackground.jpg) no-repeat center center fixed;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
 }
 
 .label
